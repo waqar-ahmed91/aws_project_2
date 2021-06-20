@@ -1,0 +1,12 @@
+Service,Monthly,Description
+S3 Bucket,23,S3 Standard storage (1000 GB per month)
+Amazon VPC,482.85,Number of NAT Gateways (1)
+Amazon RDS MySQL,1631.6,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1000 GB), Quantity (1), Instance type (db.r4.2xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+Amazon EC2,294.95,"Operating system (Linux), Quantity (4), Pricing strategy (Compute Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+Amazon EC2,294.95,"Operating system (Linux), Quantity (4), Pricing strategy (Compute Savings Plans 1 Year No Upfront), Storage amount (30 GB), Instance type (t4g.xlarge)"
+Elastic Load Balancer,2060.43,Application Load Balancer - 1
+Elastic Load Balancer,1330.43,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Processed bytes per NLB for TLS (200 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (50 seconds)"
+Total (USD),6118.21,
+,,
+Changes Made,RDS instance type changed to db.r4.2xlarge,
+,EC2 Intance quantity reduced to 4 from 6 and pricing strategy changed to Compute Savings Plan,

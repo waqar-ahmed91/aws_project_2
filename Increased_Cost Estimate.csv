@@ -1,0 +1,17 @@
+Service,Monthly,Description
+S3 Bucket,34.5,S3 Standard storage (1500 GB per month)
+Amazon VPC,965.7,Number of NAT Gateways (2)
+Amazon RDS MySQL,6526.4,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2000 GB), Quantity (1), Instance type (db.r5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+Amazon EC2,1031.12,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances), Storage amount (50 GB), Instance type (t4g.xlarge)"
+Amazon EC2,1031.12,"Operating system (Linux), Quantity (10), Pricing strategy (On-Demand Instances), Storage amount (50 GB), Instance type (t4g.xlarge)"
+Elastic Load Balancer,4980.43,Application Load Balancer - 1
+Elastic Load Balancer,3082.47,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (350 GB per hour), Processed bytes per NLB for TLS (350 GB per hour), Average number of new TLS connections (35 per second), Average TLS connection duration (10 seconds)"
+Amazon CloudWatch,862.34,
+Total (USD),18514.08,
+,,
+Changes Made,RDS storage capacity increased to 2000 GB,
+,"EC2 Intance quantity increased to 10 from 6, pricing strategy change to on demand instances and storage capacity increased to 50 GB from 30 GB",
+,VPC number of NAT gateways increased from 1 to 2,
+,Application Load Balancer- increased  processed bytes ,
+,Network Load Balancer - increased processed bytes,
+,S3 bucket storage capacity increased to 1500 GB from 1000 GB,
